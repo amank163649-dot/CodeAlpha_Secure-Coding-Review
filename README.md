@@ -23,15 +23,15 @@ A secure code audit of a sample Python/Flask web application, combining automate
 ```
 CodeAlpha_SecureCodingReview/
 ├── README.md
-├── Secure_Coding_Review_Report.docx     # Full report: findings, evidence, fixes, recommendations
+├── Secure_Coding_Review_Report.docx     
 ├── vulnerable_app/
-│   ├── app.py                           # Original code under review
+│   ├── app.py                         
 │   └── requirements.txt
 ├── fixed_app/
-│   └── app.py                           # Fully remediated version
+│   └── app.py                         
 └── analysis/
-    ├── bandit_report.txt                # Bandit scan — before remediation
-    └── bandit_report_fixed.txt          # Bandit scan — after remediation
+    ├── bandit_report.txt               
+    └── bandit_report_fixed.txt          
 ```
 
 ---
